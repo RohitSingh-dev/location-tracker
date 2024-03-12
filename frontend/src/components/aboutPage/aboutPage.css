@@ -1,0 +1,42 @@
+.aboutPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(210, 253, 253);
+    font-family: cursive;
+}
+.aboutPage-middle{
+    display: flex;
+    flex-direction: column;
+}
+.aboutPage-middle-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutPage-middle-top h1{
+    color: red;
+    padding-bottom: 2px;
+    border-bottom: 2px black solid ;
+}
+.aboutPage-middle-top span{
+    width: 700px;
+    text-align: center;
+}
+.aboutPage-middle-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutPage-middle-bottom-left{
+    margin: 90px;
+}
+.aboutPage-middle-bottom-left h2{
+    color: red;
+}
+.aboutPage-middle-bottom-right img{
+    margin: 50px;
+    height: 380px;
+}

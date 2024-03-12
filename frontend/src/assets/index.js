@@ -1,0 +1,12 @@
+export {default as icon} from '../assets/icon.png';
+export {default as login_icon} from './login_icon.png';
+export {default as register_icon} from '../assets/register_icon.png';
+export {default as calender} from '../assets/ServicesPage/Calender.png';
+export {default as idea} from '../assets/ServicesPage/Idea.png';
+export {default as location} from '../assets/ServicesPage/Location.png';
+export {default as security} from '../assets/ServicesPage/Security.png';
+export {default as contact1} from '../assets/Contacts/contact1.jpg';
+export {default as contact2} from '../assets/Contacts/contact2.jpg';
+export {default as contact3} from '../assets/Contacts/contact3.jpg';
+export {default as home_icon} from './home_icon.png';
+export {default as aboutUs_image} from './aboutUs_image.png';

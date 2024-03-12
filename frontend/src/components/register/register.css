@@ -1,0 +1,80 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(210, 253, 253);
+    height: 100%;
+    font-family: cursive;
+}
+.register-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.register-bottom-left{
+    display: flex;
+    align-items: center;
+}
+.register-bottom-left img{
+    height: 400px;
+    margin-left: 100px;
+}
+.register-bottom-right{
+    display: flex;
+}
+.register-bottom-right form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 200px;
+}
+.register-bottom-right-form-heading img{
+    height: 250px;
+    width: 250px;
+    margin-bottom: -42px;
+}
+.register-bottom-right-form-label{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    color: red;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+.register-bottom-right-form-label input{
+    height: 25px;
+    width: 300px;
+    color: black;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px black solid;
+    margin-top: -20px;
+}
+.register-bottom-right-form-button input{
+    height: 35px;
+    width: 130px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 28px 0px;
+    cursor: pointer;
+    background-color: #5cb85c;
+    color: #fff;
+}
+.register-bottom-right-form-button input:hover{
+    background-color:limegreen;
+}
+.register-bottom-right-form-login{
+    font-size: 17px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.register-bottom-right-form-login a{
+    text-decoration: none;
+    color: blue;
+    margin-left: 5px;
+}
+.register-bottom-right-form-login a:hover{
+    color: red;
+    font-weight: 600;
+}

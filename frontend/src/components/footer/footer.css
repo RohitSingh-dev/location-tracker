@@ -1,0 +1,51 @@
+.footer{
+    display: flex;
+    background-color: #282828;
+    justify-content: space-between;
+    align-items: center;
+    font-family: cursive;
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 90px;
+}
+.footer-left-top{
+    color: #fff;
+    font-size: 15px;
+}
+.footer-left-top span{
+    color:red;
+    font-weight: 700;
+    font-size: 17px;
+}
+.footer-left-down{
+    color: #fff;
+    opacity: 0.7;
+    margin-top: -32px;
+    font-size: 13px;
+}
+.footer-right{
+    display: flex;
+    margin-right: 160px;
+}
+.footer-right a{
+    margin: 0px 30px;
+    text-decoration: none;
+}
+.footer-right button{
+    height: 35px;
+    width: 90px;
+    color: black;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: cursive;
+}
+.footer-right button:hover{
+    background-color: red;
+}
+.footer-right-register button:hover{
+    background-color: #5cb85c;
+}
