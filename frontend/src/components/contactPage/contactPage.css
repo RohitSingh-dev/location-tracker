@@ -1,6 +1,7 @@
 .contactPage{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     font-family: cursive;
     height: 100%;
     background-color: rgb(210, 253, 253);
@@ -22,12 +23,8 @@
     color:red;
     border-bottom: 2px black solid;
 }
-.contactPage-middle-bottom-contacts{
+.contactPage-middle-bottom{
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
-}
-.carousel-container{
-    width: 1182px;
-    height: 520px;
 }

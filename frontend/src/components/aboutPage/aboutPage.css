@@ -1,15 +1,13 @@
 .aboutPage{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    width: 100%;
-    background-color: rgb(210, 253, 253);
+    height: 100vh;
     font-family: cursive;
 }
 .aboutPage-middle{
     display: flex;
     flex-direction: column;
+    background-color: rgb(210, 253, 253);
 }
 .aboutPage-middle-top{
     display: flex;
